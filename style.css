@@ -2,10 +2,14 @@
   box-sizing: border-box;
 }
 
-
 body {
   background-color: #f0f0f0;
 }
+
+.container {
+  margin: 0 auto;
+}
+
 h1 {
   text-transform: uppercase;
   font-family: monospace;
@@ -14,9 +18,11 @@ h1 {
   text-align: center;
   color: #282828;
 }
+
 table {
   margin: auto;
 }
+
 td {
 border: 2px solid #404040;
 height: 200px;
