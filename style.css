@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #ffffff;
+  color: #282828;
 }
 
 .container {
@@ -12,20 +12,18 @@ body {
 
 h1, h2 {
   text-transform: uppercase;
-  font-family: monospace;;
+  font-family: monospace;
   font-size: 40px;
   text-align: center;
-  color: #282828;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 table {
   margin: auto;
-  margin-bottom: 30px;
-
+  margin-bottom: 1%;
 }
 
 td {
@@ -34,29 +32,49 @@ height: 200px;
 width: 200px;
 }
 
+.square {
+  color: #282828;
+  font-size: 84px;
+  font-family: monospace;
+  text-align: center;
+}
+
 .reset {
+  display: block;
   margin: auto;
-  padding: 10px;
+  padding: 12px;
   display: block;
   background-color: white;
   font-family: "Lato";
+  font-size: 12px;
   font-weight: bolder;
-  border-color: pink;
+  border: 2px solid hotpink;
+  border-radius: 2px;
 }
 
-
+.reset:hover {
+  padding: 15px;
+  transition: 0.5s;
+  font-size: 14px;
+}
 .keepBanana, .keepMuffin {
   position: absolute;
-  top: 20%;
-  height: 400px;
-  width: 200px;
-  border: 1px solid black;
+  top: 25%;
+  height: 500px;
+  width: 150px;
 }
 
 .keepBanana {
-  right: 20px;
+  right: 10%;
 }
 
 .keepMuffin {
-  left: 20px;
+  left: 10%;
+}
+
+.score {
+  font-family: monospace;;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;
 }
