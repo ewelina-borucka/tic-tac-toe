@@ -1,5 +1,5 @@
 # tic-tac-toe
-An classic game TIC TAC TOE 
+A classic TIC TAC TOE game 
 
 https://ewelina-borucka.github.io/tic-tac-toe
 
